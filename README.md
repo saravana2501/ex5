@@ -135,14 +135,14 @@ def powerlamp(request):
         context['I'] = I
         context['R'] = R
         print('Power=',Power)
-    return render(request,'side/calci.html',context)
+    return render(request,'mathapp/math.html',context)
+
 
 
 urls.py
-
 from django.contrib import admin
 from django.urls import path
-from side import views
+from mathapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('PowerOfLampFilamentInAnIncandescentBulb/',views.powerlamp,name="PowerOfLampFilamentInAnIncandescentBulb"),
