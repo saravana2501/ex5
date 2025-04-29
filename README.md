@@ -154,8 +154,6 @@ urlpatterns = [
 
 ![Screenshot 2025-04-29 134211](https://github.com/user-attachments/assets/d6d06112-0502-412f-83dc-86a8204f15ed)
 
-## HOMEPAGE:
-
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
